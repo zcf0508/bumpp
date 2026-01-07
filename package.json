@@ -1,7 +1,7 @@
 {
   "name": "bumpp",
   "type": "module",
-  "version": "10.3.2",
+  "version": "10.3.3-beta.1",
   "packageManager": "pnpm@10.23.0",
   "description": "Bump version, commit changes, tag, and push to Git",
   "authors": [
@@ -88,5 +88,5 @@
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
     "vitest": "^4.0.14"
-  }
+  },"publishConfig": {"tag":"beta"}
 }
